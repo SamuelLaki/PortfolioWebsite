@@ -116,9 +116,9 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 📬 Contact
 
-Samuel Laki - [samuel.laki@example.com](mailto:samuel.laki@example.com)
+Samuel Laki - [samilaki11@gmail.com](mailto:samilaki11@gmail.com)
 
-Project Link: [https://github.com/SamuelLaki/portfolio-website](https://github.com/SamuelLaki/portfolio-website)
+Project Link: [https://github.com/SamuelLaki/PortfolioWebsit](https://github.com/SamuelLaki/PortfolioWebsite)
 
 ---
 
