@@ -95,22 +95,20 @@ const ProjectOverview = ({ params }: { params: { projectName: string } }) => {
 
                 <ProjectTechnologiesMini techStack={techStack} />
 
-                <div className="mt-10">
-                  {!liveDemoUrl && <DemoDisclaimer />}
-                  
-                  <div className="flex items-center gap-4">
-                  <ShinyButton icon={<Globe />} iconPosition="left">
-                    <Link href={liveDemoUrl} target="_blank">
-                      View Demo
-                    </Link>
-                  </ShinyButton>
+                <div className="flex items-center gap-4 mt-10">
+                  {project.id === "chordtutor" && (
+                    <ShinyButton icon={<Globe />} iconPosition="left">
+                      <Link href={liveDemoUrl} target="_blank">
+                        View Demo
+                      </Link>
+                    </ShinyButton>
+                  )}
 
                   <ShinyButton icon={<Code />} iconPosition="left">
                     <Link href={sourceCodeUrl} target="_blank">
                       Source Code
                     </Link>
                   </ShinyButton>
-                  </div>
                 </div>
               </div>
 

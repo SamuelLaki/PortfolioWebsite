@@ -69,6 +69,42 @@ export const techCardsItems = [
 
 export const portfolioProjects = [
   {
+    id: "ringfaceid",
+    heading: "RingFaceID",
+    subheading: "smart doorbell facial recognition system",
+    description:
+      "An intelligent face recognition system that integrates with Amazon Ring doorbells to automatically identify visitors and announce their names via text-to-speech. The system captures doorbell footage, detects faces using MTCNN, recognizes visitors using FaceNet deep learning model, and provides voice announcements for identified visitors.",
+    imageUrl: "/imgs/projects/portfolio-mockup4.png",
+    techStack: [
+      "Python",
+      "TensorFlow",
+      "FaceNet",
+      "MTCNN",
+      "OpenCV",
+      "Ring API",
+      "Google TTS",
+    ],
+    liveDemoUrl: "",
+    sourceCodeUrl: "https://github.com/SamuelLaki/RingFaceID",
+  },
+  {
+    id: "chordtutor",
+    heading: "ChordTutor",
+    subheading: "interactive music learning platform",
+    description:
+      "A comprehensive guitar learning application with interactive lessons, chord recognition, and progress tracking. Features include a virtual fretboard, audio analysis for pitch detection, and personalized learning paths for students of all levels.",
+    imageUrl: "/imgs/projects/portfolio-mockup3.jpg",
+    techStack: [
+      "Flask",
+      "Python",
+      "HTML/CSS",
+      "JavaScript",
+      "Bootstrap",
+    ],
+    liveDemoUrl: "https://chord-tutor.vercel.app",
+    sourceCodeUrl: "https://github.com/SamuelLaki/ChordTutor",
+  },
+  {
     id: "diagnosai",
     heading: "DiagnosAI",
     subheading: "ai-powered medical diagnosis assistant",
@@ -84,7 +120,7 @@ export const portfolioProjects = [
       "Matplotlib",
       "Jupyter Notebook",
     ],
-    liveDemoUrl: "https://diagnosai-demo.vercel.app",
+    liveDemoUrl: "",
     sourceCodeUrl: "https://github.com/SamuelLaki/DiagnosAI",
   },
   {
@@ -105,42 +141,6 @@ export const portfolioProjects = [
     ],
     liveDemoUrl: "",
     sourceCodeUrl: "https://github.com/SamuelLaki/PantryVision",
-  },
-  {
-    id: "chordtutor",
-    heading: "ChordTutor",
-    subheading: "interactive music learning platform",
-    description:
-      "A comprehensive guitar learning application with interactive lessons, chord recognition, and progress tracking. Features include a virtual fretboard, audio analysis for pitch detection, and personalized learning paths for students of all levels.",
-    imageUrl: "/imgs/projects/portfolio-mockup3.jpg",
-    techStack: [
-      "Flask",
-      "Python",
-      "HTML/CSS",
-      "JavaScript",
-      "Bootstrap",
-    ],
-    liveDemoUrl: "https://chord-tutor.vercel.app",
-    sourceCodeUrl: "https://github.com/SamuelLaki/ChordTutor",
-  },
-  {
-    id: "ringfaceid",
-    heading: "RingFaceID",
-    subheading: "smart doorbell facial recognition system",
-    description:
-      "An intelligent face recognition system that integrates with Amazon Ring doorbells to automatically identify visitors and announce their names via text-to-speech. The system captures doorbell footage, detects faces using MTCNN, recognizes visitors using FaceNet deep learning model, and provides voice announcements for identified visitors.",
-    imageUrl: "/imgs/projects/portfolio-mockup4.png",
-    techStack: [
-      "Python",
-      "TensorFlow",
-      "FaceNet",
-      "MTCNN",
-      "OpenCV",
-      "Ring API",
-      "Google TTS",
-    ],
-    liveDemoUrl: "",
-    sourceCodeUrl: "https://github.com/SamuelLaki/RingFaceID",
   },
 ];
 
