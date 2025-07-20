@@ -120,7 +120,7 @@ export const portfolioProjects = [
       "JavaScript",
       "Bootstrap",
     ],
-    liveDemoUrl: "",
+    liveDemoUrl: "https://chord-tutor.vercel.app",
     sourceCodeUrl: "https://github.com/SamuelLaki/ChordTutor",
   },
   {

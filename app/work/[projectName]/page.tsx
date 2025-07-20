@@ -2,6 +2,7 @@ import Footer from "@/app/_components/Footer";
 import ProjectTechnologiesMini from "@/app/_components/ProjectTechnologiesMini";
 import { Navbar } from "@/app/_components/ui/Navbar";
 import ShinyButton from "@/app/_components/ui/ShinyButton";
+import DemoDisclaimer from "@/app/_components/ui/DemoDisclaimer";
 import { portfolioProjects } from "@/app/_lib/constants";
 import {
   BriefcaseBusiness,
@@ -94,7 +95,10 @@ const ProjectOverview = ({ params }: { params: { projectName: string } }) => {
 
                 <ProjectTechnologiesMini techStack={techStack} />
 
-                <div className="flex items-center gap-4 mt-10">
+                <div className="mt-10">
+                  {!liveDemoUrl && <DemoDisclaimer />}
+                  
+                  <div className="flex items-center gap-4">
                   <ShinyButton icon={<Globe />} iconPosition="left">
                     <Link href={liveDemoUrl} target="_blank">
                       View Demo
@@ -106,6 +110,7 @@ const ProjectOverview = ({ params }: { params: { projectName: string } }) => {
                       Source Code
                     </Link>
                   </ShinyButton>
+                  </div>
                 </div>
               </div>
 
